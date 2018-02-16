@@ -7,7 +7,7 @@ config.parse.translation = {
     'object': 'OBJECT',
     'imageType': 'IMGTYPE',
     'testType': 'TESTTYPE',
-    'filter': 'FILTER',
+    'filter': 'FILTPOS',
     'lsstSerial': 'LSST_NUM',
     'date': 'DATE-OBS',
     'dateObs': 'DATE-OBS',

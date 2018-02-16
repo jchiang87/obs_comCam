@@ -141,6 +141,13 @@ class ComCamMapper(CameraMapper):
         afwImageUtils.defineFilter('NONE', 0.0, alias=['no_filter', "OPEN"])
         afwImageUtils.defineFilter('275CutOn', 0.0, alias=[])
         afwImageUtils.defineFilter('550CutOn', 0.0, alias=[])
+        afwImageUtils.defineFilter('0', 0.0, alias=[])
+        afwImageUtils.defineFilter('1', 0.0, alias=[])
+        afwImageUtils.defineFilter('2', 0.0, alias=[])
+        afwImageUtils.defineFilter('3', 0.0, alias=[])
+        afwImageUtils.defineFilter('4', 0.0, alias=[])
+        afwImageUtils.defineFilter('5', 0.0, alias=[])
+        afwImageUtils.defineFilter('6', 0.0, alias=[])
 
     def _makeCamera(self, policy, repositoryDir):
         """Make a camera (instance of lsst.afw.cameraGeom.Camera) describing the camera geometry."""
