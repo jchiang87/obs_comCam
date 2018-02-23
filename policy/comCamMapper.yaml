@@ -434,3 +434,14 @@ datasets:
     storage: PickleStorage
     tables: raw
     template: gain/%(run)s/gain%(ccd)s_%(run)s.pickle
+  apPipe_config:
+    persistable: Config
+    python: lsst.ap.pipe.ApPipeConfig
+    storage: ConfigStorage
+    template: config/apPipe.py
+  apPipe_metadata:
+    persistable: PropertySet
+    python: lsst.daf.base.PropertySet
+    storage: BoostStorage
+    tables: raw
+    template: apPipe_metadata/v%(visit)d_f%(filter)s.boost
